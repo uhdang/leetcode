@@ -17,11 +17,13 @@ docker exec -it leetcode bash
 ### 3. Login to mysql server
 $ mysql -u root --password=my-leetcode-pw
 
+### 4. Import Schema + Content by sql file
+$ mysql -u root -p [DB_NAME] < to/file/path.sql
 
 ### Commands
 ```
 SHOW DATABASES;
-CREATE DATABASE <name>;
+CREATE DATABASE <name>; # i.e. CREATE DATABASE leetcode_main
 DROP DATABASE <name>;
 USE <databasename>;    # Use specific database
 SELECT database();      # Show currently using database
