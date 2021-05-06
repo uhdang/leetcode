@@ -2,10 +2,13 @@
 #define Solution_H
 
 #include <string>
+
+using namespace std;
+
 class Solution
 {
     public:
-        std::string removeVowels(std::string s);
+        string removeVowels(string s);
 };
 
 #endif
