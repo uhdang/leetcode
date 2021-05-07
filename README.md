@@ -7,6 +7,11 @@ $ g++ [FILE.cpp]
   
 * execute
 $ ./a.out
+  
+### Note
+- Reference 1119 for refactoring `class` with `header`.
+- Make sure to compile all used cpp files. i.e. for 1119, 
+  $ c++ test.cpp Solution.cpp
 
 
 ## SQL
