@@ -14,6 +14,28 @@ $ ./a.out
   $ c++ test.cpp Solution.cpp
 
 
+## Java
+
+1. Include main function to the java code
+```
+class Solution {
+    public static void main(String[] args) {
+        System.out.println("Solution main function");
+    }
+    
+    ...
+}
+```
+
+2. Compile the program
+$ javac /path/to/Solution.java
+   
+3. Run compiled binary (Need to go to the directory)
+$ java Solution
+
+
+
+
 ## SQL
 
 ### Local MySQL Server
