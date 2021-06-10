@@ -5,4 +5,4 @@ SELECT employee_id,
            WHEN name LIKE "M%" THEN 0
            ELSE salary
            END AS bonus
-FROM Employees ;
+FROM Employees;
