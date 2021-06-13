@@ -10,6 +10,7 @@ $ ./a.out
   
 ### Note
 - Reference 1470, 1119 for refactoring `class` with `header`.
+  - ref: https://docs.microsoft.com/en-us/cpp/cpp/header-files-cpp?view=msvc-160
 - Make sure to compile all used cpp files. i.e. for 1119, 
   $ c++ test.cpp Solution.cpp
 
