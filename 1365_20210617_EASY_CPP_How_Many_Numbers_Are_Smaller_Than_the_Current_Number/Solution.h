@@ -2,5 +2,5 @@
 
 class Solution {
 public:
-    std::vector<int> smallerNumbersThanCurrnet(std::vector<int>& nums);
+    std::vector<int> smallerNumbersThanCurrent(std::vector<int>& nums);
 };

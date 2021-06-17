@@ -2,7 +2,7 @@
 
 #include "Solution.h"
 
-std::vector<int> Solution::smallerNumbersThanCurrnet(std::vector<int>& nums) {
+std::vector<int> Solution::smallerNumbersThanCurrent(std::vector<int>& nums) {
     std::vector<int> output;
 
     for (int i = 0; i < nums.size(); i++) {
