@@ -1,5 +1,3 @@
-# By Language
-
 ## C++
 
 * compile
@@ -13,6 +11,8 @@ $ ./a.out
   - ref: https://docs.microsoft.com/en-us/cpp/cpp/header-files-cpp?view=msvc-160
 - Make sure to compile all used cpp files. i.e. for 1119, 
   $ c++ test.cpp Solution.cpp
+
+
 
 
 ## Java
